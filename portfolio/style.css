@@ -1,0 +1,102 @@
+body{
+  margin:0;
+  background-color: #111926;
+  color:#fff;
+  font-family: 'Roboto','sans-serif';
+ 
+
+}
+.center{
+  max-width:700px;
+  margin: 0 auto;
+}
+header{
+  
+
+  
+  background-color: #223040;
+  padding:20px 0;
+}
+header div.center{
+  display:flex;
+  justify-content:space-between;
+  
+}
+header a{
+  color:#fff;
+  text-decoration: none;
+  height:30px;
+  line-height:30px;
+  display:inline-block;
+}
+header a.nav-links.active{
+  color:#fff;
+  text-decoration:underline
+}
+header a.social-link svg,footer svg{
+  fill:rgba(255,255,255,0.6);
+}
+header nav{
+  display:flex;
+
+}
+header .nav-links{
+  padding:0 10px;
+}
+header nav a{
+  padding:0 10px;
+  color:rgba(255,255,255,0.5);
+}
+div.intro{
+  display:flex;
+  gap:20px;
+  justify-content: space-between;
+  background-color:#111926;
+}
+div.intro img{
+   width:200px;
+   margin-top:20px;
+   margin-bottom:20px;
+}
+div.intro p{
+  margin: 0;
+  align-self:center;
+}
+div.h1{
+  background-color: #223040;
+  
+}
+h1{
+  margin:0;
+  background-color: #223040;
+  padding-top:50px;
+  font-size:50px;
+  line-height:40px;
+}
+footer{
+  display:flex;
+  justify-content: space-between;
+  margin-top:60px;
+  border-top:1px solid #556;
+  padding: 20px 0;
+}
+footer a{
+  text-decoration:none;
+}
+footer p{
+  margin:0;
+  align-self:center;
+}
+div.contact{
+  text-align:left;
+  padding:30px 0;
+  font-size:15px;
+}
+div.projects{
+  text-align:left;
+  padding:10px 0;
+}
+div.exp{
+  text-align:left;
+  padding:10px 0;
+}
